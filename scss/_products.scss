@@ -1,0 +1,124 @@
+
+// product//
+
+
+
+.toole-categ{
+    display: flex;
+    justify-content: space-between;
+    background: #f3f3f3;
+    padding: 2rem 1rem;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    .toole-categ-text{
+        width: 40%;
+        font-family: $fontPri;
+        font-weight: $fontWeight;
+        .bttnd{
+            font-family: $fontSec;
+        }
+    }
+    .toole-categ-imge {
+    width: 60%;
+    img{
+        width: 95%;
+    }
+
+}
+.dis-red{
+    color: $mainColor;
+    }
+}
+
+
+
+
+
+  /* seaction products */
+
+.list{
+    display: flex;
+    justify-content: space-around;
+    color: $secColora;
+    border-top: 1px solid #adb5bd;
+    padding: .9rem 0;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bolder;
+    padding-right: 100px;
+    .i{
+        font-size: 30px;
+    }
+    
+}
+
+
+
+.product-item-text{
+    display: flex;
+    justify-content: space-between;
+    color: $secColora;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+}
+.product-item-star{
+    color: orange;
+    
+}
+.product_img img{
+width: 200px;
+height: 200px;
+
+}
+
+.prod-icon{
+    color: $mainColor;
+    font-size: 35px;
+}
+.big-sale-img{
+    margin-bottom: -15px;
+
+}
+.btn-view-all button{
+    width: 100%;
+    margin: 5rem 0;
+    
+}
+.btn-view-all button i{
+    font-weight:$fontWeight;
+    font-size: 20px;
+}
+/* seaction Featured-Products */
+.Featured-Products{
+    background: #f3f3f3;
+}
+.Featured-Products-headingR{
+    font-size: 30px;
+    color: $mainColor;
+    font-weight:$fontWeight;
+    font-family: $fontPri
+    ;
+}
+.Featured-Products-headingb{
+    color: $secColora;
+    font-weight:$fontWeight;
+    text-align: right;
+}
+div.Featured-Products img{
+    width: 90%;
+    height: 200px;
+    border-right: 1.5px solid white;
+}
+.prf-fe-icon{
+    color: $mainColor;
+    font-size: 25px;
+    text-align: right;
+    display: block;
+    width: 100%;
+    padding: 0 1.5rem;
+}
+.psale{
+    font-size: small;
+}

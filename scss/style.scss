@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// variable /// 
+$mainColor: #d82435; 
+$secColora: #1f2b7b;
+$fontWeight:bold;
+$fontPri: 'Noto Serif', serif;
+$fontSec: 'Varela Round', sans-serif;
+$fontWeight: bolder;
+
+@mixin fontSty{
+    
+   font-weight: bolder;
+   font-family: 'Tahoma';
+}  
+
+@import'./header.scss' ;
+@import'./buildMart' ;
+@import'./bigSale' ;
+@import'./services' ;
+@import'./highPerformance' ;
+@import'./products' ;
+@import'./big' ;
+@import'./whyBuil' ;
+@import'./footer' ;
+
+
+
+
+
+
+

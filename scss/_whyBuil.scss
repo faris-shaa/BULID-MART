@@ -1,0 +1,48 @@
+
+
+.bulid-m{
+    width: 100%;
+    min-height: 250px;
+    padding: 6% 0;
+    margin-top: 15px;
+    .b-head h2{
+        color: $secColora;
+        font-family: $fontPri;
+        text-transform: capitalize;
+        letter-spacing: 1.5;
+        font-weight: $fontWeight;
+        font-size: 35px;
+    }
+    .cycle-div{
+        border: 5px solid #ccc;
+        padding: 5px;
+        border-radius: 50%;
+        width: 220px;
+        height: 220px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: auto;
+        margin-top: 10px;
+        i{
+            font-size: 40px;
+            color: $secColora;
+            margin: 12px auto;
+        }
+        p{
+            font-family: $fontPri;
+            font-weight: bold;
+            color: $secColora;
+            margin: 12px auto;
+        }
+        .prag1{
+            line-height: 1.5;
+            color: $secColora;
+            margin-top: 10px;
+        }
+    }
+    .whyD{
+       color: $secColora;
+    }
+}

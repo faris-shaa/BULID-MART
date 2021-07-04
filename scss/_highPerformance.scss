@@ -1,0 +1,43 @@
+
+
+
+// HIGH-PERFORMANCE
+
+
+
+.HIGH-PERFORMANCE{
+
+
+    .backgroundGr{
+        background-color: #fff;
+        padding:20px 10px ;
+    
+        .Higf-col{
+            position: relative;
+        }
+        .HIGH-circle-sale{
+            position: absolute;
+            right:100px;
+        }
+      
+    }
+    margin: 3rem 0;
+    h1{
+        color: $mainColor;
+        font-family: $fontPri;
+        font-weight: $fontWeight;
+    }
+    p{
+        color: #444343;
+        font-weight: $fontWeight;
+        font-family: $fontPri;
+    }
+    img{
+        width: 80%;
+        
+    }
+    .ufer{
+        color: #fff;
+    }
+
+  }

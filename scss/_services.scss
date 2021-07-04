@@ -1,0 +1,88 @@
+
+
+// services//
+
+
+.services{
+    padding-bottom: 60px;
+    .categ-blue,.categ-red{
+        display: flex;
+        justify-content: space-around;
+    }
+    .categ-icon{
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        background: #e4e5e6;
+        border: $secColora;
+        color: $secColora;
+        font-size: 40px;
+        text-align: center;
+        line-height: 80px;
+        border: 1px solid $secColora;
+    }
+    .categ-text{
+        color: $secColora;
+        font-size: 18px;
+        font-family: $fontSec;
+    }
+    .categ-Materials{
+        opacity: .7;
+    }
+    .active{
+        opacity: 1;
+    }
+    .categ-red{
+        .categ-icon{
+            color: $mainColor;
+        }
+        .categ-text{
+            color: $mainColor;
+        }
+        .active .categ-icon{
+            border-color: $mainColor;
+        }
+        .active .categ-icon{
+            border: 2px solid $mainColor;
+        }
+    
+    } 
+
+
+}
+
+
+
+    /* seaction categ */
+
+
+
+
+
+
+
+
+
+.categ-Materials.active::before{
+    content: 'NEW';
+    width: 60px;
+    height: 27px;
+    font-size: 14px;
+    text-align: center;
+    background: $mainColor;
+    color: #fff;
+    padding: .2rem .3rem;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    position: absolute;
+    top: -13px;
+    left: 140px;
+   
+}

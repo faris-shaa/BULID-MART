@@ -1,0 +1,68 @@
+
+
+// Big-Sale
+.big-sale{
+    background: #e4e5e6;
+    font-family: $fontSec;
+    
+    ol.carousel-indicators li{
+        cursor: pointer;
+    }
+     img{
+        width: 80%;
+       margin-bottom: 18px;
+    }
+    h6{
+        color: $secColora;
+        font-size: 30px;
+        font-weight: $fontWeight;
+        font-family: $fontPri;
+    }
+    h1{
+        color: $mainColor;
+        font-size: 80px;
+        font-family: $fontSec;
+        font-weight: $fontWeight;
+    }
+    .big-sale-lorem{
+        color: #444343;
+        font-weight: bold;
+        margin-bottom: -8px;
+    }
+    .big-sale-parg{
+        color: #a9abad;
+    }
+    .btn-danger{
+        padding:.5rem 1.5rem;
+        font-size: 20px;
+    }
+}
+.circle-sale{
+    width: 110px;
+    height: 110px;
+    background: $mainColor;
+    box-shadow: 5px 5px 10px $mainColor,-5px -5px 10px $mainColor;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    text-align: center;
+   line-height: 110px;
+   position: absolute;
+   font-weight: bold;
+
+   span {
+       margin-top: -25px;
+      color: #2926265e;
+       display: block;
+   }
+}
+.circle-sale-parg1{
+    color: #fff;
+    font-size: 18px;
+    position: absolute;
+    top: 0px;
+    right: 18px;
+
+}

@@ -1,0 +1,64 @@
+
+
+// Start BuildMart
+.buildMart{
+    .headr-heading{
+        margin-bottom: -30px;
+        h1{
+            color: $mainColor;
+            font-family: 'Audiowide', cursive;
+            margin-top: -15px;
+
+            
+            // @include fontSty() ;
+            // span{
+                
+            //     display: block;
+            //     font-family: 'Audiowide', cursive;
+            // }  
+        }
+    }
+    
+    
+    .input-group-append button{
+        color: $mainColor;
+        font-size: 22px;
+        font-weight:$fontWeight;
+       
+    }
+    
+    .headr-boxes{
+        margin-top: 20px;
+        .btn i{
+            font-size: 16px;
+            padding: .5rem .2rem;
+            margin: 0 5px;
+            
+         }
+         .serviceBut{
+            background: $secColora;
+            border: none;
+            padding: 0.5rem 1rem;
+            font-size: 10px;
+            font-weight:$fontWeight;
+            &:hover{
+            background-color: $mainColor;
+            }
+        }
+        .btn-danger{
+            padding: 0.5rem 1rem;
+        
+        }
+    }
+    .headr-search{
+        margin-top: 20px;
+        .serchBtn{
+            border: none;
+        }
+        .btn-outline-secondary{
+            border: none;
+            margin-left: -44px;
+        }
+    }
+}
+// End BuildMart
